@@ -34,7 +34,7 @@ compute engine > VM Instance
 
 open ssh of bastion
 
-copy external IP address of juice shop 
+copy internal IP address of juice shop 
 
 run the following command in bastion ssh
-ssh <external IP oh juice shop>
+ssh <internal IP oh juice shop>
