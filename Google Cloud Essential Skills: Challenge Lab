@@ -1,0 +1,13 @@
+gcloud compute instances create apache --zone us-central1-a --tags http-server
+
+
+gcloud compute firewall-rules create allow-http --target-tags http-server --source-ranges 0.0.0.0/0 --allow tcp:80
+
+
+open ssh of apache:
+
+sudo apt-get update && sudo apt-get install apache -2 -y
+
+sudo apt-get install apache-2 -y
+
+sudo apt-get install apache2 -y
